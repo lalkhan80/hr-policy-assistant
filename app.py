@@ -26,11 +26,10 @@ CHUNK_OVERLAP = 150
 # =========================================================
 
 st.set_page_config(
-    page_title="HR Policy Assistant",
-    page_icon="📘",
+    page_title="Haval-H6 Ask Question",
+    page_icon="🚙",
     layout="wide",
 )
-
 
 # =========================================================
 # LOAD EMBEDDING MODEL
@@ -481,11 +480,11 @@ for key, value in defaults.items():
 # =========================================================
 
 st.title(
-    "📘 HR Policy Assistant"
+    "🚙 Haval-H6 Ask Question"
 )
 
 st.caption(
-    "Upload an HR Policy PDF and ask questions. "
+    "Upload a Haval H6 document or manual and ask questions. "
     "Answers are generated from retrieved policy text using RAG."
 )
 
